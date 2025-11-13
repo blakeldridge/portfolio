@@ -1,0 +1,154 @@
+{
+    "projects" : [
+        {
+      "id": 4,
+      "name": "FPGA Reflex Game",
+      "description": "A reflex-testing game built entirely in hardware on an FPGA using Verilog. Features a six-digit text display and keypad for user input, challenging players to hit correct targets in time.",
+      "inspiration": "I wanted to move beyond software and explore hardware-level programming — understanding how games can exist as circuits instead of code.",
+      "workflow": "I implemented the game logic, timing, and input systems in Verilog on a custom MU0 processor. This required designing modules, state machines, and precise timing signals.",
+      "takeaways": "The project gave me a solid grasp of digital design, hardware debugging, and the fundamentals of low-level computation.",
+      "tags": ["Hardware", "Game"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/blakeldridge/MU0-Reflex-Game",
+      "link": null,
+      "skills": ["Verilog", "FPGA", "Assembly"]
+    },
+    {
+      "id": 5,
+      "name": "FPGA Crossy Road",
+      "description": "A hardware recreation of the classic Crossy Road game built on an FPGA. Includes VGA output, logic handling, and interactive gameplay implemented directly in hardware.",
+      "inspiration": "After building my reflex game, I wanted to push my FPGA skills further by creating a recognizable, interactive experience with graphics and animation.",
+      "workflow": "I developed VGA modules, sprite renderers, and input handling logic entirely in Verilog. The game runs in real time, demonstrating how digital logic can create dynamic visuals.",
+      "takeaways": "This taught me to think in hardware pipelines — how timing, memory, and pixel rendering all combine to form an interactive game.",
+      "tags": ["Hardware", "Game"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1579547621113-e4bb2a19bda6?w=800&h=400&fit=crop" }
+      ],
+      "github": null,
+      "link": null,
+      "skills": ["Verilog", "FPGA", "Assembly"]
+    },
+    {
+      "id": 6,
+      "name": "Genetic Algorithms",
+      "description": "An exploration of evolutionary computing — using genetic algorithms to train AI agents to play games like Snake and Flappy Bird.",
+      "inspiration": "I’ve always been fascinated by how simple principles of evolution can lead to intelligent behavior. This project was my way of bringing that to life in code.",
+      "workflow": "I simulated populations of neural networks that evolved over generations using selection, crossover, and mutation to improve performance. Pygame was used for visualizing each generation’s progress.",
+      "takeaways": "I learned about reinforcement learning concepts, optimization, and how emergent behavior can arise from simple rules.",
+      "tags": ["AI"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/blakeldridge/GeneticAlgorithms",
+      "link": null,
+      "skills": ["Python", "Pygame", "Machine Learning", "NumPy"]
+    },
+    {
+      "id": 7,
+      "name": "Battleship Solitaire Generator",
+      "description": "An automated puzzle generator that creates and validates Battleship Solitaire puzzles with unique solutions and difficulty ratings.",
+      "inspiration": "I’ve always loved logic puzzles and wanted to see if I could teach a program to design them intelligently, just as humans do.",
+      "workflow": "I implemented a constraint satisfaction solver to validate puzzles and a generator that tweaks difficulty based on board size and rule density.",
+      "takeaways": "I gained experience with backtracking algorithms, search optimization, and procedural content generation.",
+      "tags": ["Game"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/blakeldridge/BattleshipSolitaire",
+      "link": null,
+      "skills": ["Python", "Pygame", "Pillow", "Constraint Satisfaction"]
+    },
+    {
+      "id": 8,
+      "name": "Nuclear Whiskers",
+      "description": "A physics-based 2D bunker fighting game built in Python’s Tkinter. Includes projectile physics, gameloop systems, and a custom GUI.",
+      "inspiration": "I wanted to learn how to create games without relying on a dedicated game engine — focusing instead on the math, physics, and raw logic behind it.",
+      "workflow": "Using Tkinter, I built a canvas-based game engine from scratch with custom rendering loops, collision detection, and input handling.",
+      "takeaways": "This project strengthened my understanding of GUI frameworks and game physics fundamentals.",
+      "tags": ["Game"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/blakeldridge/BunkerGame",
+      "link": null,
+      "skills": ["Python", "Tkinter", "Git"]
+    },
+    {
+      "id": 9,
+      "name": "PyPSA-Eur Research",
+      "description": "A research project using PyPSA-Eur to model European power system scenarios, analyzing renewable integration, grid optimization, and energy transition pathways.",
+      "inspiration": "Energy systems are a key challenge for our generation. I wanted to understand how modeling frameworks can influence real sustainability decisions.",
+      "workflow": "I worked with PyPSA-Eur datasets to run simulations on renewable integration and visualized the outcomes using Geopandas and Matplotlib.",
+      "takeaways": "I learned how large-scale energy models operate and how data visualization plays a critical role in energy policy analysis.",
+      "tags": ["Energy", "Recent"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop" }
+      ],
+      "github": null,
+      "link": null,
+      "skills": ["Python", "PyPSA", "Pandas", "Numpy", "Matplotlib", "Geopandas", "Cartopy"]
+    },
+    {
+      "id": 10,
+      "name": "Battery Dispatch Model",
+      "description": "An economic modeling tool that optimizes solar battery dispatch strategies by analyzing cost, peak shaving, and arbitrage opportunities.",
+      "inspiration": "I was fascinated by how data and modeling can drive renewable energy adoption. This project let me explore the economics behind it.",
+      "workflow": "I built optimization routines in Python using Pandas for data handling and Matplotlib for performance visualization, running simulations on varying usage profiles.",
+      "takeaways": "I gained insights into modeling, optimization, and the intersection between economics and renewable energy systems.",
+      "tags": ["Energy", "Recent"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/yourusername/battery-dispatch-model",
+      "link": null,
+      "skills": ["Python", "Mathematical Modeling", "Pandas", "Numpy", "Matplotlib", "Git"]
+    },
+    {
+      "id": 11,
+      "name": "Hyperloop Manchester Website",
+      "description": "The official website for the University of Manchester’s Hyperloop Society. Showcases events, projects, and recruitment using a clean, responsive layout.",
+      "inspiration": "As part of the society, I wanted to create a professional online presence that reflected the innovation of our projects.",
+      "workflow": "I designed and built the website using HTML, CSS, and JavaScript, focusing on accessibility, performance, and design consistency.",
+      "takeaways": "I learned to balance technical execution with design thinking, producing a polished public-facing product.",
+      "tags": ["Web"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop" }
+      ],
+      "github": null,
+      "link": "https://hyperloop-manchester.com/",
+      "skills": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 12,
+      "name": "LinguaVault",
+      "description": "A mobile app for learning Chinese using interactive flashcards, spaced repetition, and stroke-order animations to aid memorization.",
+      "inspiration": "I wanted to make learning Chinese more engaging and data-driven, combining my interest in linguistics and app development.",
+      "workflow": "Built in Android Studio using Java, I implemented SRS algorithms, user progress tracking, and custom animation logic for character strokes.",
+      "takeaways": "I explored mobile UX design and algorithmic scheduling — key aspects of effective educational app development.",
+      "tags": ["App"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=800&h=400&fit=crop" }
+      ],
+      "github": null,
+      "link": null,
+      "skills": ["Android Studio", "Java", "Mobile Development"]
+    },
+    {
+      "id": 13,
+      "name": "Maze Generator",
+      "description": "A visual tool that generates mazes in real time using algorithms like breadth-first search and depth-first search, with pathfinding demonstrations.",
+      "inspiration": "I love visual algorithms — this project was born from wanting to ‘see’ how BFS and DFS explore space differently.",
+      "workflow": "I implemented the algorithms in Python with Pygame visualizations and configurable parameters for maze size and complexity.",
+      "takeaways": "This reinforced my understanding of search algorithms and how to visualize computational processes clearly.",
+      "tags": ["AI", "Game"],
+      "media": [
+        { "type": "image", "url": "https://images.unsplash.com/photo-1569396116180-210c182bedb8?w=800&h=400&fit=crop" }
+      ],
+      "github": "https://github.com/blakeldridge/MazeGeneration",
+      "link": null,
+      "skills": ["Python", "Pygame", "Breadth-First Search"]
+    }
+    ]
+}

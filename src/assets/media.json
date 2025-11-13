@@ -1,0 +1,22 @@
+{
+"media" : [
+    {
+      "id": 1,
+      "type": "image",
+      "src": "/media/ugc_finals_1.jpg",   
+      "thumbnail": "/media/ugc_finals_1.jpg"
+    },
+    {
+      "id": 2,
+      "type": "image",
+      "src": "/media/ugc_finals_2.jpg",   
+      "thumbnail": "/media/ugc_finals_2.jpg"
+    },
+    {
+      "id": 3,
+      "type": "image",
+      "src": "/media/british-teams.png",   
+      "thumbnail": "/media/british-teams.png"
+    }
+  ]
+}

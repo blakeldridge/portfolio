@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Gymnastics Routine Builder",
+      "description": "A comprehensive web application that calculates gymnastics routine difficulty scores based on the Code of Points. Users can build routines, explore a skill database, and receive automated feedback to optimize their scores.",
+      "inspiration": "As a competitive gymnast, understanding how to maximize routine difficulty is key to success. The Code of Points, however, is complex and boring. I wanted to make it accessible — a tool that empowers gymnasts and coaches to focus on doing gymnastics, not calculations!",
+      "workflow": "I built this using React and Tailwind CSS for the front end, Express.js for the backend, and PostgreSQL for storing skill data. The app dynamically calculates difficulty and connects a user-friendly interface with performance-driven logic.",
+      "takeaways": "I strengthened my understanding of full-stack web development, from database modeling to front-end state management, while creating something meaningful for a sport I love.",
+      "tags": ["Web", "Recent"],
+      "media": [
+        { "type": "image", "url": "/media/projects/routine-builder-1.png" },
+        { "type": "image", "url": "/media/projects/routine-builder-2.png" },
+        { "type": "image", "url": "/media/projects/routine-builder-3.png" }
+      ],
+      "github": "https://github.com/blakeldridge/RoutineBuilder-Lite",
+      "link": "https://gymnastics-routine-builder.vercel.app",
+      "skills": ["React", "Tailwind CSS", "Node.js", "PostgreSQL", "Git"]
+    },
+    {
+      "id": 2,
+      "name": "Enwreathe",
+      "description": "A fast-paced pixel art survival game built in Pygame. Waves of enemies surround you — survive using spells, movement mechanics, and sharp reflexes through escalating difficulty and boss battles.",
+      "inspiration": "For my A-level coursework, I wanted to challenge myself to create a full, polished game from scratch — one that combined art, gameplay design, and coding logic into something genuinely fun to play.",
+      "workflow": "I built custom sprite systems, particle effects, and enemy AI using object-oriented programming. Pygame handled the rendering and loop control, while I implemented behavior trees to create smart, reactive enemies.",
+      "takeaways": "This project honed my understanding of modular programming, game architecture, and event-driven logic, while giving me insight into the creative side of development.",
+      "tags": ["Game"],
+      "media": [
+        { "type": "image", "url": "/media/projects/enwreathe_1.png" },
+        { "type": "image", "url": "/media/projects/enwreathe_2.png" },
+        { "type": "image", "url": "/media/projects/enwreathe_3.png" },
+        { "type": "image", "url": "/media/projects/enwreathe_4.png" }
+      ],
+      "github": "https://github.com/blakeldridge/Enwreathe",
+      "link": "https://blakeldridge.itch.io/enwreathe",
+      "skills": ["Python", "Pygame", "Behavior Trees", "Object-Oriented Programming"]
+    },
+    {
+      "id": 3,
+      "name": "Gymnastics 3D Pose Estimation",
+      "description": "A deep learning system that estimates 3D gymnast poses from 2D video footage using advanced computer vision models. Designed for potential use in judging and performance analysis.",
+      "inspiration": "For my dissertation project, I wanted to tackle something personal and exciting. With an immense passion for all things AI, and a deep-seeded enjoyment of gymnastics, I figured why not combine the too and extend the use of computer vision in the sport.",
+      "workflow": "My goal is to explore current methods of 3D pose estimation, current 3D pose datasets and various methods of dealing with occlusion, motion blur and odd orientations in order to build the 'perfect' gymnastics pose tool. My ambition is to build an app that allows you to film your gymnastics, and use this tool to visualise your skill in 3D to identify key mistakes or improvements.",
+      "takeaways": "This project requires expert-level knowledge in the field of computer vision and AI. It will allow me to explore industry-level libraries and methods in a real-world project.",
+      "tags": ["AI", "Recent"],
+      "media": [
+        { "type": "image", "url": "/media/projects/pose-estimation-1.png" }
+      ],
+      "github": null,
+      "link": null,
+      "skills": ["Python", "PyTorch", "NumPy", "Pandas", "Computer Vision", "OpenCV", "Machine Learning"]
+    }
+  ]
+}

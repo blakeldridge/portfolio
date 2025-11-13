@@ -1,0 +1,31 @@
+{
+    "news" : [
+    {
+        "id": 1,
+        "headline": "Regional and Club Judge Qualified",
+        "description": "Men's artistic judging qualifications complete",
+        "section1": "After being approached to judge the British National Setwork Championships, I was able to complete both my Club and Regional judging qualifications. The knowledge acrewed from these courses will both help me as a gymnast, but also open doors in the future once my career is over. Being able to stay apart of the sport as a judge for major competitions.",
+        "section2": "After qualifying, I went on to judge the fairly major competition, one in which GB squad is chosen for the younger gymnasts. This experience allowed me to have a talk with a lot of the long-running judges, an excellent networking opportunity. Multiple judges had long running careers as civil engineers, software engineers, accountants and more! Who new the gymnastics judging space was a gold mine for STEM jobs!",    
+        "section3": "Overall, I thoroughly enjoyed the opportunity and it is now something I definitely look to pursue once my gymnastics career reaches its end!",
+        "readTime": 3
+    },
+    {
+        "id": 3,
+        "headline": "London Open",
+        "description": "New pb on Pommel Horse and a Bronze medal.",
+        "section1":"As this was the last competition of the season, all unmet goals of the year needed to be completed here, and it did not dissappoint!",
+        "section2":"I finally hit my goal of achieveing over 70.0 all around score, even with 2 falls. I could not be happier with this finish to the season. Not only this, but I managed to secure my first national senior medal on the Pommel Horse! As the final piece, a good score was needed - I stepped up and performed! Absolutely ecstatic!",
+        "section3":null,
+        "readTime": 4
+    },
+    {
+        "id": 4,
+        "headline": "UGC National Champion",
+        "description": "A clean sweep winning Gold in the UGC league.",
+        "section1": "Last month marked the final University Gymnastics Cup 🏆 competition of the year, where the title of National Champion was up for grabs. After a year of unwavering dedication to the sport, I’m incredibly proud to share that I’ve been crowned the 2024–25 UGC National Champion in the FIG Men's category. On top of that, I was honoured to receive the Most Improved Gymnast of the Year award from the UGC committee — a recognition that means a lot to me given the work I’ve put in this season.",
+        "section2": "This year has reignited my passion for gymnastics and feels like the true beginning of a new chapter in my journey. Having been involved in gymnastics for over a decade, I’m excited to see where this momentum takes me next.",
+        "section3":null,
+        "readTime": 8
+    }
+    ]
+}

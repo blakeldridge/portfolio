@@ -1,0 +1,122 @@
+{
+    "folders" : {
+        "University": {
+            "relevant_courses.json": {
+            "title": "relevant_courses",
+            "content": {
+                "year_one": [
+                "Intro to Programming 1 & 2",
+                "Mathematical Techniques for CS",
+                "Data Science",
+                "Fundamentals of Computation",
+                "Computer Engineering",
+                "Computer Architecture",
+                "Operating Systems",
+                "First Year Team Project"
+                ],
+                "year_two": [
+                "Processors Microarchitecture",
+                "Intro to AI",
+                "Machine Learning",
+                "Algorithms and Data Structures",
+                "Visual Computing",
+                "Software Engineering 1 & 2",
+                "Programming Languages and Paradigms",
+                "LEAP Chinese"
+                ],
+                "year_3": [
+                "Implementing System-on-Chip Processors",
+                "Graphics and Virtual Environments",
+                "Natural Language Processing",
+                "AI and Games"
+                ]
+            }
+            },
+            "societies.json": {
+            "title": "societies",
+            "content": {
+                "gymnastics": [
+                    "Treasurer",
+                    "FIG Men's Artistic Competitor",
+                    "UGC National Champion 2025"
+                ],
+                "volleyball": [
+                    "BUCS Division 1",
+                    "2025 : UoM Team 2",
+                    "2024 : UoM Team 3"
+                ],
+                "trampolining": "Member",
+                "hyperloop": "Website Developer"
+            }
+            },
+            "awards.json": {
+                "title": "certificates_and_awards",
+                "content": {
+                    "University_of_Manchester":"Half Colours Award",
+                    "microsoft": "Microsoft Certified: Azure AI Fundamentals",
+                    "UK_mathematics_trust": [
+                    "Merit in Senior Kangaroo Math's Challenge",
+                    "GOLD in Senior Maths Challenge"
+                    ],
+                    "codecademy": [
+                    "Apply Natural Language Processing with Python Skill Path",
+                    "Learn the Basics of Artificial Intelligence (AI) with Minimax Course",
+                    "Learn the Basics of Blockchain with Python Course"
+                    ],
+                    "british_gymnastics": [
+                        "Regional Judge (Men's Artistic)",
+                        "Club Judge (Men's Artistics)"
+                    ]
+                }
+            }
+        },
+        "Experiences": {
+            "internship.json": {
+            "title": "Data Science Summer Internship",
+            "content": {
+                "where": "Fraser-Nash Consultancy",
+                "duration": "Summer 2025",
+                "description": [
+                "Experimented with PyPSA-Eur to model the UK's energy systems and simulated shock events, introduction of new technology and sector coupling.",
+                "Built a Python cost modelling tool on solar batteries and their lifetimes.",
+                "Became an expert in standard Python libraries : Numpy, Pandas, Matplotlib"
+                ]
+            }
+            },
+            "computer_science_tutor.json": {
+            "title": "Computer Science Tutor",
+            "content": {
+                "where": "PMT Education (Self Employed)",
+                "duration": "2023 - present",
+                "description": [
+                "Taught over 300 hours of GCSE and A level Computer Science lessons.",
+                "Prepared students for upcoming exams and mocks.",
+                "Provided clear and concise curiculum to teach people programming from scratch."
+                ]
+            }
+            },
+            "codecamp.json": {
+            "title": "Coding Teacher",
+            "content": {
+                "where": "codecamp",
+                "duration": "2023 - 2025",
+                "description": [
+                "Solo-taught video games development to an afterschool club of up to 20 children.",
+                "Utilised fun games, presentations and websites to engage children in computer science topics."
+                ]
+            }
+            },
+            "code_ninjas.json": {
+            "title": "Coding Team Leader",
+            "content": {
+                "where": "Code Ninjas",
+                "duration": "2022 - 2023",
+                "description": [
+                "Led fun and engaging afterschool clubs teaching children programming, stop-motion and other tech skills.",
+                "Aided students from ages 5-14 to learn programming through video games creation using scratch, javascript, Lua and C#."
+                ]
+            }
+            }
+        }
+    }
+}
